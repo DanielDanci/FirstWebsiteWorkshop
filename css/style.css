@@ -1,0 +1,56 @@
+body{
+    background: url(../img/background.jpeg);
+}
+
+#navigation a{
+    margin: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: magenta;
+}
+
+#navigation{
+    float: left;
+    padding-bottom: 200px;
+    width: 100%;
+}
+
+#navigation ul{
+    padding: 0%;
+    margin: -30px;
+}
+
+#navigation ul li{
+    background-color: black;
+    border-radius: 0px;
+    float: left;
+    list-style: none;
+    position: relative;
+    width: 520px;
+}
+
+#navigation ul li a {
+    display: block;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+#main-content{
+    padding-left: 10%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+   font-size: 30px; 
+    color: magenta
+}
+
+p{
+    font-size: 16px;
+    font-family: Arial;
+}
